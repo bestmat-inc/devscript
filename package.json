@@ -1,0 +1,15 @@
+{
+  "name": "devscript",
+  "version": "1.0.0",
+  "description": "A programming language created for developers, for both frontend and backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuvanth B",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "consola": "^3.2.3"
+  }
+}
