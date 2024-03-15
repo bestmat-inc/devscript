@@ -1,0 +1,9 @@
+// ©2024 - DevScript - BestMat, Inc. - All rights reserved.
+// This program can be reused.
+import math
+print: "Hello World!";
+ask: "What is your name: " => name;
+print: "Hi {name}!";
+
+random = math.random()
+print: "A random number: {random}";
