@@ -15,6 +15,9 @@
   </a>
 </p>
 
+> Copyright ©️2024 - DevScript - BestMat, Inc. - All rights reserved.
+
+
 > [!NOTE]
 > DevScript is still in BETA version, and has many errors.
 
