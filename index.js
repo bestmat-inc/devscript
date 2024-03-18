@@ -1,6 +1,6 @@
-// ©2024 - DevScript - BestMat, Inc. - All rights reserved.
+// ©2024 - DevScript - All rights reserved.
 const code = `
-print: "LIVE";
+print: "Hello World!";
 `;
 
 import throw_error from "./src/throw_error.js";
