@@ -1,0 +1,7 @@
+ask: "Enter a number: " => number;
+i = 0;
+while (i < number) {
+    print: i;
+    i = i + 1;
+}
+print: "Loop finished!";
