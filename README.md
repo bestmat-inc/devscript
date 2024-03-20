@@ -15,6 +15,21 @@
   </a>
 </p>
 
+# Contributors:
+A special thanks to all the contributors for this project:
+1. TayoYuva - https://github.com/BestMat
+2. MQXF - https://github.com/mqxf
+3. Dfmaa - https://github.com/Dfmaaa
+4. Vamsi - https://github.com/vamsimadhav
+5. Witty Lemon -
+6. Matrix - https://github.com/sanjayJ369
+7. JacobEudela -
+8. Zariyan -
+9. Mike - https://github.com/maross3
+10. HaZarD_WiZarD -
+
+
+
 > [!NOTE]
 > DevScript is still in BETA version, and has many errors.
 
