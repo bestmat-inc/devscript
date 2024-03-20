@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "DevScript"
+name = "devc"
 version = "0.1.0"

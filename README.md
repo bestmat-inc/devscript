@@ -1,8 +1,8 @@
-# DevScript
+DevScript
 <h1 align="center">
  <center><img src="https://codeprojects.org/Vv-6CjeqcK83FycQ-qy2NxVKn1FA0MojyShNazJp4Us/BestMat.jpg" width="150" height="100"></center>
-  
-  DevScript
+
+DevScript
 </h1>
 
 <p align="center">
@@ -15,10 +15,12 @@
   </a>
 </p>
 
-# Contributors:
+# Authors:
+Note: this section will be changed to be more sophisticated, as to what part each author played in this code.
+
 A special thanks to all the contributors for this project:
 1. TayoYuva - https://github.com/BestMat
-2. MQXF - https://github.com/mqxf
+2. mqxf (Maxim Savenokv) - https://github.com/mqxf
 3. Dfmaa - https://github.com/Dfmaaa
 4. Vamsi - https://github.com/vamsimadhav
 5. Witty Lemon -
@@ -27,22 +29,3 @@ A special thanks to all the contributors for this project:
 8. Zariyan -
 9. Mike - https://github.com/maross3
 10. HaZarD_WiZarD -
-
-
-
-> [!NOTE]
-> DevScript is still in BETA version, and has many errors.
-
-## Print Statement
-To print anything, use ```print: value```.
-> ```print: "Hello World!";``` => **OUTPUT**: Hello World
-
-> ```print: 2127";``` => **OUTPUT**: 2127
-
-> ```print: x;``` => **OUTPUT:** value of variable x
-
-## Variables
-To create a variable, use ```variable name = value```
-> ```x = 1;```
-
-> ```str = "hello";```
