@@ -65,9 +65,142 @@ class class_name {
 }
 ```
 
-To use a class, `myClass = new class_name(constructor_paramater_values);`
+To instantiate a class, `myClass = new class_name(constructor_paramater_values);`
 
-Processes such as inheritance, polymorphism will be added later on.
+### Inheritance
+Inheritance allows a class to inherit properties and methods from another class.
+```devscript
+    class ParentClass {
+    // properties and methods
+    }
+
+    class ChildClass extends ParentClass {
+    // additional properties and methods
+    }
+```
+
+### Polymorphism
+Polymorphism allows methods to behave differently based on the object they are called on.
+
+```devscript
+   class ClassName {
+     method() {
+       // method implementation
+     }
+   }
+
+   class SubClassName extends ClassName {
+     method() {
+       // overridden method implementation
+     }
+   }
+```
+
+***Example***
+```devscript
+    class Animal {
+    speak() {
+    // generic animal sound
+    }
+   }
+
+    class Dog extends Animal {
+    speak() {
+    // dog specific sound
+    }
+   }
+
+    class Cat extends Animal {
+    speak() {
+    // cat specific sound
+    }
+   }
+```
+
+### Encapsulation
+Encapsulation hides the internal state of an object and restricts direct access to it.
+```devscript
+    class MyClass {
+  private _myPrivateField: Type;
+
+  constructor(myPrivateField: Type) {
+    this._myPrivateField = myPrivateField;
+  }
+
+  get myPrivateField() {
+    return this._myPrivateField;
+  }
+
+  set myPrivateField(value: Type) {
+    this._myPrivateField = value;
+  }
+ }
+```
+### Abstraction
+Abstraction hides the implementation details and only shows the necessary features of an object.
+```devscript
+    abstract class AbstractClass {
+    abstract abstractMethod(): ReturnType;
+   }
+```
+***Example***
+```devscript
+    abstract class Shape {
+    abstract area(): number;
+   }
+
+    class Circle extends Shape {
+    constructor(private radius: number) {
+    super();
+   }
+
+    area(): number {
+    return Math.PI * this.radius * this.radius;
+   }
+  }
+```
+
+### Composition
+Composition allows objects to be constructed using other objects.
+
+```devscript
+    class ClassA {
+    // properties and methods
+   }
+
+    class ClassB {
+    classAInstance: ClassA;
+
+    constructor(classAInstance: ClassA) {
+    this.classAInstance = classAInstance;
+   }
+
+   // other class-specific functionality
+  }
+```
+
+***Example***
+
+```devscript
+    class Engine {
+    start() {
+    // code here
+    }
+   }
+
+    class Car {
+    engine: Engine;
+
+    constructor(engine: Engine) {
+    this.engine = engine;
+    }
+
+    startCar() {
+    this.engine.start();
+    // other car-specific functionality
+    }
+   }
+```
 
 ### Object:
 ```devscript
@@ -75,6 +208,22 @@ myObject = {
   "key": value,
   ...
 };
+```
+### Generics
+Generics allow types (classes and interfaces) to be parameterized by other types.
+```devscript
+   fn: myFunction<T>(arg: T) {
+     // code here
+   };
+```
+
+### Interfaces
+Interfaces define a contract for classes to implement.
+```devscript
+    interface MyInterface {
+      method1();
+      method2(param: Type);
+    }
 ```
 
 # Import/Export
